@@ -13,3 +13,28 @@ Questions that were explored are:
 * What genres are most popular year to year?
 * What impact does the company that produces a movie have on the revenue?
 * Is there any correlation between vote count and revenue?
+
+## Data Wrangling
+The dataset was cleaned and put into the right shape. Some of the steps taken to clean the data are:
+* Removal of duplicate values.
+* Taking care of null values.
+* Cleaning column values to make sure they are the way they are supposed to be.
+* Changing column datatypes to the appropriate datatypes.
+
+## Data Exploration
+In this stage, I answered the questions posed in the introduction. I made use of visuals to better depict the story the data was telling. Appropriate labels and titles were used in each plot.
+
+## Conclusions
+Analysis of the imdb movies dataset produced a lot of interesting insights. The insights that were garnered are listed below:
+* Budget has a positive correlation coefficient of **0.69** with Revenue.
+* Popularity also has a positive correlation coefficient of **0.63** with Revenue.
+* Total revenue gotten from movies has gone up over the years.
+* Animation genre attracts more revenue per movie on average, with an average of approximately **222 million dollars** per movie. Action genre has the highest total revenue generated (approx **173.4 billion dollars** in revenue).
+* Directors do not necessarily impact revenue. The fact that a director has directed more movies does not guarantee that they will generate more revenue than a director with a smaller number of movies directed.
+* The runtime of a movie has a weak positive correlation of **0.26** with the revenue.
+* The Drama genre produces more movies yearly than any other genre. Average popularity among genres is really close between Animation, Adventure and Science Fiction year to year.
+* Walt Disney Pictures has the highest average revenue generated among production companies. With an average revenue of **247 million dollars**, the next best company (Twentieth Century Fox Film Corporation) averages **167 million dollars** in revenue.
+* There is a strong positive correlation of **0.76** between vote count and Revenue.
+
+## Limitations
+* Correlation does not imply causation. This analysis merely tests the correlation between two variables and does not imply that one variable causes change in the other. Several other statistical methods and tests have to be run before one can come to a conclusion of causation.
