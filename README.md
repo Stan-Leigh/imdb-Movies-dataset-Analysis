@@ -3,7 +3,7 @@
 ## Introduction
 This is a dataset collected from the popular imdb website on movies that were released from 1960 to 2015. The dataset includes columns like revenue, budget, cast, production companies, popularity, release date, vote count, vote average, etc. The dataset has almost 11000 rows and 21 columns. This project would focus on the revenue column as the dependent variable and explore how other columns (independent variables) affect revenue.
 
-Questions that weree explored are:
+Questions that were explored are:
 * Relationship between budget and revenue.
 * Relationship between revenue and popularity.
 * How does the revenue look like when viewed year to year?
