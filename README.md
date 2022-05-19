@@ -38,3 +38,6 @@ Analysis of the imdb movies dataset produced a lot of interesting insights. The 
 
 ## Limitations
 * Correlation does not imply causation. This analysis merely tests the correlation between two variables and does not imply that one variable causes change in the other. Several other statistical methods and tests have to be run before one can come to a conclusion of causation.
+* Missing values in the revenue columns can be researched and filled in to make a more complete dataset.
+* The cast column contained very weird strings that made exploring it a bit difficult.
+* This dataset is a sample of all the movies ever produced. Some insights may change if this analysis were done with another sample of the population dataset.
